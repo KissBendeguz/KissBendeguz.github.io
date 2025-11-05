@@ -118,5 +118,5 @@ A játék **kategória meta** adatokat és **kérdéseket** vár:
 - A játék közben a teljes vizuális UI a **canvas**-on jelenik meg; az overlay csak a menükre szolgál.
 
 ## Külső eszközök
-- **AI** generált háttérképek.
+- **AI** generált háttérképek illetve `data.json`(180 kérdés).
 - **Bootstrap-icons** ikon könyvtár
