@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: ivory;
+  color: ivory;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.app--in-game #quizCanvas {
+  opacity: 1;
+  pointer-events: auto;
+}
+.app--in-game #ui-layer {
+  display: none;
+}
+
+#quizCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+}
+
+#ui-layer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.screen {
+  background: rgba(10, 6, 30, 0.94);
+  border-radius: 24px;
+  padding: 1.5rem 1.75rem;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.screen.active {
+  display: block;
+}
+
+.screen-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.screen-header-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 20%, #fff8d7, #ffbe0b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #3b2300;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.lead {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  color: #d0c8ff;
+}
+
+.small {
+  font-size: 0.78rem;
+  color: #d0c8ff;
+}
+
+.final-score {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+.form label {
+  font-size: 0.8rem;
+  color: #d0c8ff;
+}
+.form input,
+.form select {
+  border-radius: 999px;
+  border: none;
+  padding: 0.55rem 0.9rem;
+  background: rgba(26, 17, 60, 0.95);
+  color: ivory;
+  outline: none;
+}
+.form input:focus,
+.form select:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.18);
+}
+.form input::-moz-placeholder {
+  color: rgba(208, 200, 255, 0.8);
+}
+.form input::placeholder {
+  color: rgba(208, 200, 255, 0.8);
+}
+
+.btn {
+  border-radius: 999px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: rgba(54, 33, 110, 0.95);
+  color: ivory;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.45);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  transition: transform 0.16s ease-out, box-shadow 0.16s ease-out, background 0.16s ease-out, opacity 0.16s ease-out;
+}
+.btn.primary {
+  background: linear-gradient(135deg, #ff9f1c, #ffbe0b);
+  color: #3b2300;
+}
+.btn.ghost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+}
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.6);
+}
+.btn:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+  box-shadow: none;
+}
+
+.gameover-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0.9rem;
+}
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 0.4rem 0.45rem;
+  text-align: left;
+}
+.leaderboard-table thead {
+  background: rgba(255, 255, 255, 0.08);
+}
+.leaderboard-table tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.leaderboard-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .screen {
+    padding: 1.2rem 1.25rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

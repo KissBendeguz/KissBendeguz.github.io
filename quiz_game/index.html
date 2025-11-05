@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <canvas id="quizCanvas">
+        A böngésződ nem támogatja a canvas-t.
+      </canvas>
+
+      <section id="ui-layer">
+        <section id="screen-start" class="screen active">
+          <header class="screen-header">
+            <div class="screen-header-icon">?</div>
+            <div>
+              <h1>Quiz game</h1>
+              <p class="lead">
+                Időre menő, interaktív kvízjáték.
+              </p>
+            </div>
+          </header>
+
+          <form id="start-form" class="form">
+            <label for="playerNameInput">Név (toplistához):</label>
+            <input
+              id="playerNameInput"
+              name="playerName"
+              type="text"
+              placeholder="Írd be a neved"
+            />
+
+            <label for="difficultySelect">Nehézség:</label>
+            <select id="difficultySelect" name="difficulty">
+              <option value="easy">Könnyű (20 mp / kérdés)</option>
+              <option value="normal" selected>Közepes (15 mp / kérdés)</option>
+              <option value="hard">Nehéz (10 mp / kérdés)</option>
+            </select>
+
+            <label for="categorySelect">Kategória:</label>
+            <select id="categorySelect" name="category" required>
+              <!-- JS tölti fel: "Összes kategória" + a data.json kategóriái -->
+            </select>
+
+            <button type="submit" class="btn primary">Játék indítása</button>
+          </form>
+
+          <p class="small">
+            Tipp: játék közben a válaszokat az adott gombokra kattintva
+            vagy az <strong>1–4</strong> billentyűkkel adhatod meg (A–D),
+            szóköz = „Következő”.
+          </p>
+
+          <p>
+              <a class="small" href="/README.html">Játék leírás</a>
+          </p>
+
+          <button id="btnShowLeaderboardFromStart" class="btn ghost">
+            Toplista megnyitása
+          </button>
+        </section>
+
+        <section id="screen-gameover" class="screen">
+          <h2>Vége a játéknak!</h2>
+          <p>Végső pontszámod:</p>
+          <p class="final-score">
+            <i class="bi bi-gem"></i><span id="final-score">0</span> pont
+          </p>
+          <p class="small">
+            Az eredményed elmentettük a böngésződbe.
+          </p>
+
+          <div class="gameover-actions">
+            <button id="btnRestart" class="btn primary">Új játék</button>
+            <button id="btnShowLeaderboard" class="btn ghost">
+              Toplista megtekintése
+            </button>
+          </div>
+        </section>
+
+        <!-- LEADERBOARD SCREEN -->
+        <section id="screen-leaderboard" class="screen">
+          <h2>Toplista</h2>
+          <p class="small">
+            Az eddigi legjobb eredmények.
+          </p>
+
+          <table class="leaderboard-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Név</th>
+                <th>Pont</th>
+                <th>Dátum</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+
+          <div class="leaderboard-actions">
+            <button id="btnBackToMenu" class="btn primary">
+              Vissza a főmenübe
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./src/game.js"></script>
+  </body>
+</html>

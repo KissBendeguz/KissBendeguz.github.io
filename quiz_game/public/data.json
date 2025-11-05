@@ -1,0 +1,2355 @@
+{
+    "categories": {
+        "Filmek": {
+            "bg": "assets/images/movies.jpg"
+        },
+        "IT": {
+            "bg": "assets/images/it.jpg"
+        },
+        "Történelem": {
+            "bg": "assets/images/history.jpg"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki rendezte a Titanic című filmet?",
+            "answers": {
+                "A": "James Cameron",
+                "B": "Steven Spielberg",
+                "C": "Ridley Scott",
+                "D": "Christopher Nolan"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 2,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki alakítja Jack Sparrow kapitányt A Karib-tenger kalózai filmekben?",
+            "answers": {
+                "A": "Orlando Bloom",
+                "B": "Johnny Depp",
+                "C": "Harrison Ford",
+                "D": "Tom Cruise"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 3,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Melyik stúdió logójában üvölt egy oroszlán?",
+            "answers": {
+                "A": "MGM",
+                "B": "Paramount",
+                "C": "Universal",
+                "D": "20th Century Fox"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 4,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki rendezte A Gyűrűk Ura trilógiát?",
+            "answers": {
+                "A": "Peter Jackson",
+                "B": "James Cameron",
+                "C": "Zack Snyder",
+                "D": "Denis Villeneuve"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 5,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Mi a Jégvarázs eredeti angol címe?",
+            "answers": {
+                "A": "Frozen",
+                "B": "Ice Age",
+                "C": "Cold Heart",
+                "D": "Snow Queen"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 6,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki játssza Vasembert (Iron Man) a Marvel Moziverzumban?",
+            "answers": {
+                "A": "Chris Evans",
+                "B": "Robert Downey Jr.",
+                "C": "Mark Ruffalo",
+                "D": "Chris Hemsworth"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 7,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Mi a Mátrix főhősének neve, akit Keanu Reeves alakít?",
+            "answers": {
+                "A": "Morpheus",
+                "B": "Neo",
+                "C": "Trinity",
+                "D": "Smith"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 8,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Milyen lény Shrek?",
+            "answers": {
+                "A": "Troll",
+                "B": "Ogre",
+                "C": "Óriás",
+                "D": "Tündér"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 9,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Milyen technikával készült a Toy Story első része?",
+            "answers": {
+                "A": "Stop motion",
+                "B": "Hagyományos 2D rajzfilm",
+                "C": "Vegyes élőszereplős",
+                "D": "Teljes egészében CGI"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 10,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki Luke Skywalker apja a Star Warsban?",
+            "answers": {
+                "A": "Obi-Wan Kenobi",
+                "B": "Darth Vader",
+                "C": "Han Solo",
+                "D": "Mace Windu"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 11,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Milyen állatokat keltenek életre a Jurassic Parkban?",
+            "answers": {
+                "A": "Ősembereket",
+                "B": "Dinoszauruszokat",
+                "C": "Mamutokat",
+                "D": "Szárnyas sárkányokat"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 12,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki a Forrest Gump című film főszereplője?",
+            "answers": {
+                "A": "Tom Hanks",
+                "B": "Brad Pitt",
+                "C": "Matt Damon",
+                "D": "Ben Affleck"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 13,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "A Skyfall melyik filmes franchise része?",
+            "answers": {
+                "A": "Mission: Impossible",
+                "B": "James Bond",
+                "C": "Bourne",
+                "D": "Kingsman"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 14,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Melyik filmes univerzumhoz tartozik A galaxis őrzői?",
+            "answers": {
+                "A": "DC Extended Universe",
+                "B": "MonsterVerse",
+                "C": "Marvel Cinematic Universe",
+                "D": "Star Trek"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 15,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Milyen faj a cápa A cápa (Jaws) című filmben?",
+            "answers": {
+                "A": "Tigriscápa",
+                "B": "Kalapácsfejű cápa",
+                "C": "Nagy fehér cápa",
+                "D": "Bálna"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 16,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Ki rendezte az E.T., a földönkívüli című filmet?",
+            "answers": {
+                "A": "George Lucas",
+                "B": "Steven Spielberg",
+                "C": "Ron Howard",
+                "D": "J.J. Abrams"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 17,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Melyik fiktív országban játszódik a Fekete Párduc (Black Panther)?",
+            "answers": {
+                "A": "Genovia",
+                "B": "Wakanda",
+                "C": "Latveria",
+                "D": "Zamunda"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 18,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Mi a Home Alone magyar címe?",
+            "answers": {
+                "A": "Egyedül otthon",
+                "B": "Reszkessetek, betörők!",
+                "C": "Mikulás karácsonyra",
+                "D": "Karácsonyi ének"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 19,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Mi a 2009-es Avatar bolygójának neve?",
+            "answers": {
+                "A": "Arrakis",
+                "B": "Pandora",
+                "C": "Vulcan",
+                "D": "Krypton"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 20,
+            "category": "Filmek",
+            "difficulty": "easy",
+            "question": "Melyik sportágban versenyez Rocky Balboa?",
+            "answers": {
+                "A": "Birkózás",
+                "B": "Ökölvívás",
+                "C": "Kick-box",
+                "D": "Karate"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 21,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki komponálta a Star Wars híres filmzenéjét?",
+            "answers": {
+                "A": "Hans Zimmer",
+                "B": "John Williams",
+                "C": "Howard Shore",
+                "D": "Ennio Morricone"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 22,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki rendezte az Eredet (Inception) című filmet?",
+            "answers": {
+                "A": "Christopher Nolan",
+                "B": "Denis Villeneuve",
+                "C": "David Fincher",
+                "D": "Sam Mendes"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 23,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki rendezte A Keresztapa című filmet?",
+            "answers": {
+                "A": "Martin Scorsese",
+                "B": "Francis Ford Coppola",
+                "C": "Brian De Palma",
+                "D": "Sergio Leone"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 24,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Mi a neve a Mad Max: A harag útja egyik főszereplő női karakterének?",
+            "answers": {
+                "A": "Furiosa",
+                "B": "Nikita",
+                "C": "Trinity",
+                "D": "Ripley"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 25,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki a Kaliforniai álom (La La Land) női főszereplője?",
+            "answers": {
+                "A": "Emma Watson",
+                "B": "Emma Stone",
+                "C": "Jennifer Lawrence",
+                "D": "Scarlett Johansson"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 26,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki rendezte az Élősködők (Parasite) című filmet?",
+            "answers": {
+                "A": "Park Chan-wook",
+                "B": "Bong Joon-ho",
+                "C": "Hirokazu Kore-eda",
+                "D": "Na Hong-jin"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 27,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki rendezte A víz érintése (The Shape of Water) című filmet?",
+            "answers": {
+                "A": "Guillermo del Toro",
+                "B": "Alfonso Cuarón",
+                "C": "Alejandro G. Iñárritu",
+                "D": "Tim Burton"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 28,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki rendezte az Alien – A nyolcadik utas a Halál első részét?",
+            "answers": {
+                "A": "James Cameron",
+                "B": "Ridley Scott",
+                "C": "David Fincher",
+                "D": "Jean-Pierre Jeunet"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 29,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki írta és rendezte a Ponyvaregény (Pulp Fiction) című filmet?",
+            "answers": {
+                "A": "Guy Ritchie",
+                "B": "Quentin Tarantino",
+                "C": "Joel Coen",
+                "D": "Paul Thomas Anderson"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 30,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Milyen kozmikus jelenségen át utaznak az Interstellar főhősei?",
+            "answers": {
+                "A": "Fekete lyuk",
+                "B": "Féregjárat",
+                "C": "Pulzár",
+                "D": "Szupernóva-maradvány"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 31,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki alakítja a Joker (2019) főszerepét?",
+            "answers": {
+                "A": "Jared Leto",
+                "B": "Joaquin Phoenix",
+                "C": "Heath Ledger",
+                "D": "Jack Nicholson"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 32,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Melyik filmért kapott Oscar-díjat Leonardo DiCaprio 2016-ban?",
+            "answers": {
+                "A": "A Wall Street farkasa",
+                "B": "Eredet",
+                "C": "Viharsziget",
+                "D": "A visszatérő (The Revenant)"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 33,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Ki alakította Jokert A sötét lovag című filmben?",
+            "answers": {
+                "A": "Joaquin Phoenix",
+                "B": "Heath Ledger",
+                "C": "Jared Leto",
+                "D": "Cillian Murphy"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 34,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Mi A remény rabjai eredeti angol címe?",
+            "answers": {
+                "A": "The Green Mile",
+                "B": "The Shawshank Redemption",
+                "C": "The Great Escape",
+                "D": "Escape from Alcatraz"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 35,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Milyen autóból lett időgép a Vissza a jövőbe filmben?",
+            "answers": {
+                "A": "Pontiac Firebird",
+                "B": "DeLorean DMC-12",
+                "C": "Chevrolet Camaro",
+                "D": "Ford Mustang"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 36,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "A Mátrixban melyik pirulát veszi be Neo, hogy megismerje a valóságot?",
+            "answers": {
+                "A": "A kéket",
+                "B": "A zöldet",
+                "C": "A pirosat",
+                "D": "A sárgát"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 37,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Mi A Karib-tenger kalózai első részének (2003) alcíme?",
+            "answers": {
+                "A": "Ismeretlen vizeken",
+                "B": "Holtak kincse",
+                "C": "A világ végén",
+                "D": "A Fekete Gyöngy átka"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 38,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Melyik filmben nyújtott Oscar-díjas alakítást Hannibal Lecter karaktere?",
+            "answers": {
+                "A": "A bárányok hallgatnak",
+                "B": "Hannibal",
+                "C": "Vörös sárkány",
+                "D": "A bárányok visszatérnek"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 39,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Hány Oscar-díjat nyert A király visszatér (2003)?",
+            "answers": {
+                "A": "8",
+                "B": "9",
+                "C": "10",
+                "D": "11"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 40,
+            "category": "Filmek",
+            "difficulty": "normal",
+            "question": "Melyik stúdió készítette a Toy Storyt?",
+            "answers": {
+                "A": "DreamWorks",
+                "B": "Pixar",
+                "C": "Illumination",
+                "D": "Blue Sky"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 41,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte a Sztalker (Stalker) című filmet?",
+            "answers": {
+                "A": "Andrej Tarkovszkij",
+                "B": "Szergej Eisenstein",
+                "C": "Nikita Mihalkov",
+                "D": "Alekszej German"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 42,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte A hetedik pecsét (Det sjunde inseglet) című filmet?",
+            "answers": {
+                "A": "Ingmar Bergman",
+                "B": "Lars von Trier",
+                "C": "Carl Theodor Dreyer",
+                "D": "Jan Troell"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 43,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte a Chungking Express (Vágyak szigete) című hongkongi filmet?",
+            "answers": {
+                "A": "John Woo",
+                "B": "Wong Kar-wai",
+                "C": "Tsui Hark",
+                "D": "Stephen Chow"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 44,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte az Oldboy (2003) című filmet?",
+            "answers": {
+                "A": "Bong Joon-ho",
+                "B": "Kim Jee-woon",
+                "C": "Park Chan-wook",
+                "D": "Na Hong-jin"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 45,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "A Cidade de Deus (Isten városa) melyik ország filmje?",
+            "answers": {
+                "A": "Portugália",
+                "B": "Mexikó",
+                "C": "Brazília",
+                "D": "Spanyolország"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 46,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte a Rashomon című klasszikust?",
+            "answers": {
+                "A": "Yasujirō Ozu",
+                "B": "Akira Kuroszava",
+                "C": "Kenji Mizoguchi",
+                "D": "Hiroshi Teshigahara"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 47,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Mi az Amélie csodálatos élete eredeti francia címe?",
+            "answers": {
+                "A": "Le Fabuleux Destin d'Amélie Poulain",
+                "B": "La Vie d'Amélie",
+                "C": "Amélie et le Destin",
+                "D": "La Belle Amélie"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 48,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Melyik stúdió készítette a Chihiro Szellemországban (Spirited Away) című filmet?",
+            "answers": {
+                "A": "Toei Animation",
+                "B": "Studio Ghibli",
+                "C": "Madhouse",
+                "D": "Gainax"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 49,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte A zongorista (The Pianist) című filmet?",
+            "answers": {
+                "A": "Roman Polański",
+                "B": "Krzysztof Kieślowski",
+                "C": "Milos Forman",
+                "D": "Paweł Pawlikowski"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 50,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte a Mulholland Drive című filmet?",
+            "answers": {
+                "A": "David Lynch",
+                "B": "David Cronenberg",
+                "C": "Paul Verhoeven",
+                "D": "Brian De Palma"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 51,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte a Vér lesz (There Will Be Blood) című filmet?",
+            "answers": {
+                "A": "Paul Thomas Anderson",
+                "B": "Martin Scorsese",
+                "C": "Joel Coen",
+                "D": "Clint Eastwood"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 52,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Kik rendezték a Nem vénnek való vidék (No Country for Old Men) című filmet?",
+            "answers": {
+                "A": "Anthony és Joe Russo",
+                "B": "Ethan és Joel Coen",
+                "C": "Lana és Lilly Wachowski",
+                "D": "Albert és Allen Hughes"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 53,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Melyik ország filmje A mások élete (Das Leben der Anderen)?",
+            "answers": {
+                "A": "Ausztria",
+                "B": "Svájc",
+                "C": "Németország",
+                "D": "Dánia"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 54,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Milyen nyelvű eredetileg A faun labirintusa (Pan's Labyrinth)?",
+            "answers": {
+                "A": "Spanyol",
+                "B": "Francia",
+                "C": "Olasz",
+                "D": "Katalán"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 55,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Melyik városban játszódik leginkább A harmadik ember (The Third Man)?",
+            "answers": {
+                "A": "Prága",
+                "B": "Bécs",
+                "C": "Budapest",
+                "D": "Berlin"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 56,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Melyik évben mutatták be A hét szamuráj (Seven Samurai) című filmet?",
+            "answers": {
+                "A": "1950",
+                "B": "1952",
+                "C": "1954",
+                "D": "1956"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 57,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte a Brazil (1985) című filmet?",
+            "answers": {
+                "A": "Ridley Scott",
+                "B": "Terry Gilliam",
+                "C": "Peter Weir",
+                "D": "Alan Parker"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 58,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte az Andrej Rubljov című filmet?",
+            "answers": {
+                "A": "Andrej Tarkovszkij",
+                "B": "Nikita Mihalkov",
+                "C": "Andrej Zvjagincev",
+                "D": "Karen Shakhnazarov"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 59,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Milyen nyelvű eredetileg A szobalány (The Handmaiden) című film?",
+            "answers": {
+                "A": "Japán",
+                "B": "Koreai",
+                "C": "Mandarin kínai",
+                "D": "Thai"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 60,
+            "category": "Filmek",
+            "difficulty": "hard",
+            "question": "Ki rendezte az Alkony sugárút (Sunset Boulevard) című klasszikust?",
+            "answers": {
+                "A": "Billy Wilder",
+                "B": "Elia Kazan",
+                "C": "John Huston",
+                "D": "George Cukor"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 61,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mit jelent a CPU rövidítés?",
+            "answers": {
+                "A": "Central Processing Unit",
+                "B": "Computer Primary Unit",
+                "C": "Core Power Unit",
+                "D": "Central Program Unit"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 62,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik mobil operációs rendszer az Apple okostelefonjainak rendszere?",
+            "answers": {
+                "A": "Android",
+                "B": "iOS",
+                "C": "HarmonyOS",
+                "D": "Windows Phone"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 63,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik nyelv fut natívan a böngészőben kliens oldalon?",
+            "answers": {
+                "A": "Python",
+                "B": "Java",
+                "C": "JavaScript",
+                "D": "C#"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 64,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik kiterjesztés jelöl gyakori tömörített archívumot?",
+            "answers": {
+                "A": ".png",
+                "B": ".zip",
+                "C": ".txt",
+                "D": ".html"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 65,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mi a másolás billentyűparancsa Windows alatt?",
+            "answers": {
+                "A": "Ctrl+V",
+                "B": "Ctrl+C",
+                "C": "Ctrl+X",
+                "D": "Ctrl+Z"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 66,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mi a RAM fő szerepe egy számítógépben?",
+            "answers": {
+                "A": "Hosszú távú adatok tárolása kikapcsolás után is",
+                "B": "A processzor ideiglenes munkaterülete",
+                "C": "Grafika megjelenítése",
+                "D": "Hálózati kapcsolatok kezelése"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 67,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mit jelent a HTTP rövidítés?",
+            "answers": {
+                "A": "HyperText Transfer Protocol",
+                "B": "High Throughput Transport Protocol",
+                "C": "Hyperlink Text Transport Program",
+                "D": "Host Transfer Text Protocol"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 68,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mit azonosít egy URL?",
+            "answers": {
+                "A": "Egy fájl méretét",
+                "B": "Egy internetes erőforrás címét",
+                "C": "Egy titkos kulcsot",
+                "D": "Egy felhasználó jelszavát"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 69,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik nyílt forráskódú operációs rendszer?",
+            "answers": {
+                "A": "Windows",
+                "B": "macOS",
+                "C": "Linux",
+                "D": "iOS"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 70,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik protokoll felel a domain nevek IP-címre fordításáért?",
+            "answers": {
+                "A": "FTP",
+                "B": "DNS",
+                "C": "SMTP",
+                "D": "SSH"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 71,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mi az IPv4 loopback (saját gép) alapértelmezett címe?",
+            "answers": {
+                "A": "192.168.0.1",
+                "B": "10.0.0.1",
+                "C": "127.0.0.1",
+                "D": "255.255.255.255"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 72,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik hálózati eszköz továbbít csomagokat különböző hálózatok között?",
+            "answers": {
+                "A": "Hub",
+                "B": "Switch",
+                "C": "Router",
+                "D": "Repeater"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 73,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mire szolgál a HTML?",
+            "answers": {
+                "A": "Adatbázisok kezelése",
+                "B": "Weboldalak szerkezetének leírása",
+                "C": "Szerverek monitorozása",
+                "D": "Operációs rendszerek készítése"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 74,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mire szolgál a CSS?",
+            "answers": {
+                "A": "Adatbázis-lekérdezésekre",
+                "B": "Weboldalak megjelenésének formázására",
+                "C": "Kliens-oldali logika írására",
+                "D": "Szerver-oldali API-k írására"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 75,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik Git parancs mutatja az aktuális állapotot (staged/modified stb.)?",
+            "answers": {
+                "A": "git commit",
+                "B": "git status",
+                "C": "git push",
+                "D": "git log"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 76,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mire használjuk az SQL-t?",
+            "answers": {
+                "A": "Képszerkesztésre",
+                "B": "Relációs adatbázisok kezelésére",
+                "C": "Hálózati csomagok elemzésére",
+                "D": "Weboldalak stílusozására"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 77,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik egy népszerű relációs adatbázis-kezelő?",
+            "answers": {
+                "A": "MySQL",
+                "B": "MongoDB",
+                "C": "Redis",
+                "D": "Elasticsearch"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 78,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik egység nagyobb?",
+            "answers": {
+                "A": "1 MB",
+                "B": "1 GB",
+                "C": "1 kB",
+                "D": "1 B"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 79,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Mi a phishing?",
+            "answers": {
+                "A": "Fájlok tömörítése",
+                "B": "Álcázott kísérlet érzékeny adatok megszerzésére",
+                "C": "Hálózati csomagok titkosítása",
+                "D": "Képek optimalizálása"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 80,
+            "category": "IT",
+            "difficulty": "easy",
+            "question": "Melyik tároló őrzi meg az adatokat kikapcsolás után is?",
+            "answers": {
+                "A": "RAM",
+                "B": "CPU cache",
+                "C": "SSD",
+                "D": "Regiszterek"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 81,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik a HTTP alapértelmezett portja?",
+            "answers": {
+                "A": "21",
+                "B": "22",
+                "C": "80",
+                "D": "443"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 82,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik a HTTPS alapértelmezett portja?",
+            "answers": {
+                "A": "25",
+                "B": "110",
+                "C": "143",
+                "D": "443"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 83,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik NEM relációs adatbázis?",
+            "answers": {
+                "A": "MySQL",
+                "B": "PostgreSQL",
+                "C": "Oracle",
+                "D": "MongoDB"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 84,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik NEM idempotens HTTP-módszer a HTTP/1.1 szerint?",
+            "answers": {
+                "A": "GET",
+                "B": "POST",
+                "C": "PUT",
+                "D": "DELETE"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 85,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mire jó a CSS Flexbox elsősorban?",
+            "answers": {
+                "A": "Kétdimenziós rácselrendezésre",
+                "B": "Egydimenziós elrendezésre sorban vagy oszlopban",
+                "C": "SVG rajzolására",
+                "D": "Reszponzív képek tömörítésére"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 86,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik Linux parancs listázza a könyvtár tartalmát?",
+            "answers": {
+                "A": "cd",
+                "B": "pwd",
+                "C": "ls",
+                "D": "cat"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 87,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Hány rétegből áll az OSI modell?",
+            "answers": {
+                "A": "4",
+                "B": "5",
+                "C": "7",
+                "D": "8"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 88,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Hány bites egy IPv4-cím?",
+            "answers": {
+                "A": "16",
+                "B": "32",
+                "C": "64",
+                "D": "128"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 89,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mi a JSON?",
+            "answers": {
+                "A": "Bináris képformátum",
+                "B": "Szöveges adatcsere-formátum",
+                "C": "Hálózati protokoll",
+                "D": "Fájlrendszer"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 90,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mi egy Docker konténer?",
+            "answers": {
+                "A": "Egy operációs rendszer kernel",
+                "B": "Egy futó példánya egy Docker image-nek",
+                "C": "Egy felhőszolgáltatás",
+                "D": "Egy virtuális gép képfájl"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 91,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik parancs hoz létre ÚJ Git ágat és vált is rá azonnal?",
+            "answers": {
+                "A": "git branch feature",
+                "B": "git checkout feature",
+                "C": "git checkout -b feature",
+                "D": "git merge feature"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 92,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik SQL klauzula szűri a sorokat feltétel alapján?",
+            "answers": {
+                "A": "GROUP BY",
+                "B": "ORDER BY",
+                "C": "WHERE",
+                "D": "JOIN"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 93,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mit ad vissza az SQL INNER JOIN?",
+            "answers": {
+                "A": "Csak bal oldali tábla sorait",
+                "B": "Csak jobb oldali tábla sorait",
+                "C": "Mindkét táblából a feltételnek megfelelő párokat",
+                "D": "Az összes sort mindkét táblából"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 94,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mit jelent a reguláris kifejezés: ^a.*z$ ?",
+            "answers": {
+                "A": "A string tartalmazza az 'a' és 'z' betűket bárhol",
+                "B": "A string 'z'-vel kezdődik",
+                "C": "A string 'a'-val kezdődik és 'z'-vel végződik",
+                "D": "Csak 'a' és 'z' betűkből áll"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 95,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mi az UTF-8?",
+            "answers": {
+                "A": "Fájlrendszer típusa",
+                "B": "Változó hosszúságú Unicode karakterkódolás",
+                "C": "Képtömörítési eljárás",
+                "D": "Kriptográfiai hash"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 96,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik protokoll biztosít megbízható, sorrendtartó kézbesítést?",
+            "answers": {
+                "A": "UDP",
+                "B": "TCP",
+                "C": "ICMP",
+                "D": "ARP"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 97,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik felhőszolgáltatási modell nyújt kész alkalmazást a felhasználónak?",
+            "answers": {
+                "A": "IaaS",
+                "B": "PaaS",
+                "C": "SaaS",
+                "D": "FaaS"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 98,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik rendező algoritmus átlagosan O(n log n) időben fut?",
+            "answers": {
+                "A": "Buborékrendezés",
+                "B": "Beszúrásos rendezés",
+                "C": "Gyorsrendezés (Quicksort)",
+                "D": "Kiválasztásos rendezés"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 99,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Mit jelent a CRUD mozaikszó?",
+            "answers": {
+                "A": "Create, Run, Update, Delete",
+                "B": "Copy, Read, Use, Drop",
+                "C": "Create, Read, Update, Delete",
+                "D": "Check, Rollback, Undo, Deploy"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 100,
+            "category": "IT",
+            "difficulty": "normal",
+            "question": "Melyik Linux parancs írja ki az aktuális munkakönyvtárat?",
+            "answers": {
+                "A": "whoami",
+                "B": "pwd",
+                "C": "echo",
+                "D": "env"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 101,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Az ACID betűszóban mit jelöl az 'I' betű?",
+            "answers": {
+                "A": "Integrity",
+                "B": "Isolation",
+                "C": "Index",
+                "D": "Idempotency"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 102,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mit állít a CAP-tétel elosztott rendszerekre?",
+            "answers": {
+                "A": "Mindig biztosítható egyszerre a konzisztencia, rendelkezésre állás és partíciótűrés",
+                "B": "Hálózati partíció esetén a konzisztencia és rendelkezésre állás közül választani kell",
+                "C": "A rendelkezésre állás bármikor feláldozható partíció nélkül is",
+                "D": "A konzisztencia nem fontos a skálázásnál"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 103,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Milyen adatszerkezetet használ tipikusan egy adatbázis index?",
+            "answers": {
+                "A": "Kétirányú sor (deque)",
+                "B": "B-fa/B+-fa",
+                "C": "Hash-láncolt lista",
+                "D": "Teljes szövegű trie"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 104,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mi a 3NF (harmadik normálforma) egyik fő célja?",
+            "answers": {
+                "A": "A táblák denormalizálása gyorsításért",
+                "B": "A tranzitív függőségek megszüntetése",
+                "C": "A külső kulcsok számának növelése",
+                "D": "A redundancia bevezetése a gyorsítótár miatt"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 105,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Melyik az adatbázis-tranzakciók legerősebb izolációs szintje?",
+            "answers": {
+                "A": "READ UNCOMMITTED",
+                "B": "READ COMMITTED",
+                "C": "REPEATABLE READ",
+                "D": "SERIALIZABLE"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 106,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Melyik szükséges feltétele a holtpontnak (deadlock)?",
+            "answers": {
+                "A": "Kölcsönös kizárás (mutual exclusion)",
+                "B": "Időosztás",
+                "C": "Előrehaladás (progress)",
+                "D": "Csillapítás (backoff)"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 107,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Melyik RAID szint valósít meg tükrözést (mirroring)?",
+            "answers": {
+                "A": "RAID 0",
+                "B": "RAID 1",
+                "C": "RAID 5",
+                "D": "RAID 10 csak striping"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 108,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Hány használható hosztcímet ad egy /24 IPv4 hálózat?",
+            "answers": {
+                "A": "256",
+                "B": "254",
+                "C": "255",
+                "D": "128"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 109,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mi biztosít előremenő titkosságot (forward secrecy) TLS-ben?",
+            "answers": {
+                "A": "RSA kulcscsere állandó kulccsal",
+                "B": "Előre megosztott kulcs (PSK) minden kliensnek",
+                "C": "Ephemerális (ECDHE/DHE) Diffie–Hellman kulcscsere",
+                "D": "Csak a szerver tanúsítványa"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 110,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Melyik OAuth 2.0 folyamat ajánlott szerveroldali webalkalmazásokhoz?",
+            "answers": {
+                "A": "Implicit Grant",
+                "B": "Resource Owner Password Credentials",
+                "C": "Authorization Code (PKCE-vel is)",
+                "D": "Device Code"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 111,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mi a Kubernetes Pod?",
+            "answers": {
+                "A": "Egy node-okat csoportosító cluster",
+                "B": "A legkisebb üzemeltethető egység, egy vagy több konténerrel",
+                "C": "Egy image registry",
+                "D": "Egy perzisztens tároló osztály"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 112,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mit csinál a Git rebase tipikusan?",
+            "answers": {
+                "A": "Összeolvaszt két ágat merge commit-tal",
+                "B": "Új távoli repót hoz létre",
+                "C": "Újraalapozza a commitokat egy másik bázisra, lineáris történetet képezve",
+                "D": "Visszaállítja a working tree-t a HEAD előtti állapotra"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 113,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mennyi a bináris kupacba (binary heap) beszúrás időbonyolultsága átlagosan/legrosszabb esetben?",
+            "answers": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n log n)"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 114,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Melyik probléma NP-teljes a felsoroltak közül?",
+            "answers": {
+                "A": "Prímszámteszt",
+                "B": "Legnagyobb közös osztó",
+                "C": "Részhalmaz-összeg (Subset Sum)",
+                "D": "Bináris keresés"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 115,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mit jelent az 'eventual consistency' (végső konzisztencia)?",
+            "answers": {
+                "A": "Azonnal minden replika az új értéket adja",
+                "B": "Idővel, újabb írás nélkül minden olvasás ugyanazt az értéket adja",
+                "C": "Az írások mindig sorbarendezettek globálisan",
+                "D": "Csak a vezető replika konzisztens"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 116,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mit végez a szemétgyűjtés (GC) 'mark' fázisa a mark-and-sweep algoritmusban?",
+            "answers": {
+                "A": "A szabad blokkok összefűzését",
+                "B": "Az elérhető objektumok megjelölését",
+                "C": "A heap teljes tömörítését",
+                "D": "A szálak szinkronizálását"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 117,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mit jelent a little-endian bájtsorrend?",
+            "answers": {
+                "A": "A legnagyobb helyiértékű bájt a legalacsonyabb címen",
+                "B": "A legkisebb helyiértékű bájt a legalacsonyabb címen",
+                "C": "A bájtok felcserélődnek futás közben",
+                "D": "A hálózati sorrend megegyezik vele"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 118,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Miért fontos a memóriaigazítás (alignment)?",
+            "answers": {
+                "A": "Csak a fájlméretet csökkenti",
+                "B": "Csak a kód olvashatóságát javítja",
+                "C": "A CPU hatékonyabban fér hozzá, kevesebb büntetést okoz",
+                "D": "A hálózati késleltetést csökkenti"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 119,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Mi igaz a klaszteres (clustered) indexre relációs adatbázisban?",
+            "answers": {
+                "A": "Nem befolyásolja a sorok fizikai rendezését",
+                "B": "Csak egy tábla lehet belőle, és meghatározza a sorok fizikai sorrendjét",
+                "C": "Több is lehet egy táblán és mindegyik logikai",
+                "D": "Csak olvasási műveletekhez használható"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 120,
+            "category": "IT",
+            "difficulty": "hard",
+            "question": "Melyik alhálózati maszk felel meg a /26 prefixnek IPv4-ben?",
+            "answers": {
+                "A": "255.255.255.0",
+                "B": "255.255.255.128",
+                "C": "255.255.255.192",
+                "D": "255.255.255.224"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 121,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik évben tört ki az 1848-as magyar forradalom?",
+            "answers": {
+                "A": "1838",
+                "B": "1848",
+                "C": "1867",
+                "D": "1918"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 122,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Ki volt a Római Birodalom alapító mítoszának egyik ikerpárja?",
+            "answers": {
+                "A": "Aeneas",
+                "B": "Remus",
+                "C": "Hektor",
+                "D": "Paris"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 123,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik város híres a Parthenónról?",
+            "answers": {
+                "A": "Spárta",
+                "B": "Athén",
+                "C": "Delphi",
+                "D": "Korinthosz"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 124,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik évben ért véget a második világháború Európában?",
+            "answers": {
+                "A": "1943",
+                "B": "1944",
+                "C": "1945",
+                "D": "1946"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 125,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik országban voltak a fáraók?",
+            "answers": {
+                "A": "Görögország",
+                "B": "Róma",
+                "C": "Egyiptom",
+                "D": "Babilónia"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 126,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Ki volt a honfoglaló magyarok vezére a hagyomány szerint?",
+            "answers": {
+                "A": "Géza",
+                "B": "Árpád",
+                "C": "Koppány",
+                "D": "Taksony"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 127,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik csatában állították meg a mongolokat Magyarországon 1241–42 után?",
+            "answers": {
+                "A": "Muhi",
+                "B": "Nándorfehérvár",
+                "C": "Sajó-híd",
+                "D": "Nem csatában, kivonultak"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 128,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Ki volt az angol Tudor-dinasztia híres királynője a 16. század végén?",
+            "answers": {
+                "A": "I. Erzsébet",
+                "B": "Viktória",
+                "C": "I. Mária",
+                "D": "II. Erzsébet"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 129,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik évben omlott le a berlini fal?",
+            "answers": {
+                "A": "1987",
+                "B": "1988",
+                "C": "1989",
+                "D": "1991"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 130,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik vallás szent könyve a Korán?",
+            "answers": {
+                "A": "Zsidó vallás",
+                "B": "Kereszténység",
+                "C": "Iszlám",
+                "D": "Buddhizmus"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 131,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Ki volt a napóleoni háborúk francia vezetője?",
+            "answers": {
+                "A": "Robespierre",
+                "B": "Bonaparte Napóleon",
+                "C": "De Gaulle",
+                "D": "Richelieu"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 132,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Hol található a Machu Picchu romváros?",
+            "answers": {
+                "A": "Mexikó",
+                "B": "Peru",
+                "C": "Chile",
+                "D": "Kolumbia"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 133,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik szövetségi rendszerhez tartozott Magyarország a két világháború között?",
+            "answers": {
+                "A": "Kisantant",
+                "B": "Antant",
+                "C": "Német–olasz tengelyhez közeledett",
+                "D": "NATO"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 134,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik államformát vezették be 1918 őszén Magyarországon?",
+            "answers": {
+                "A": "Köztársaság",
+                "B": "Királyság",
+                "C": "Császárság",
+                "D": "Tanácsköztársaság azonnal"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 135,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Kinek a nevéhez köthető a telefon feltalálása?",
+            "answers": {
+                "A": "Edison",
+                "B": "Bell",
+                "C": "Marconi",
+                "D": "Tesla"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 136,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Ki volt az első amerikai elnök?",
+            "answers": {
+                "A": "Abraham Lincoln",
+                "B": "George Washington",
+                "C": "Thomas Jefferson",
+                "D": "John Adams"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 137,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik ókori város pusztult el a Vezúv kitörésekor i. sz. 79-ben?",
+            "answers": {
+                "A": "Athén",
+                "B": "Pompeji",
+                "C": "Róma",
+                "D": "Karthágó"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 138,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik országot nevezik a Felkelő Nap országának?",
+            "answers": {
+                "A": "Kína",
+                "B": "Japán",
+                "C": "Korea",
+                "D": "Thaiföld"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 139,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Melyik európai ország gyarmatosította Indiát hosszú időn át?",
+            "answers": {
+                "A": "Franciaország",
+                "B": "Spanyolország",
+                "C": "Portugália",
+                "D": "Nagy-Britannia"
+            },
+            "correct": "D"
+        },
+        {
+            "id": 140,
+            "category": "Történelem",
+            "difficulty": "easy",
+            "question": "Hol állt a középkori Hanza-szövetség központja?",
+            "answers": {
+                "A": "Velence",
+                "B": "Lübeck",
+                "C": "Gdańsk",
+                "D": "Hamburg"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 141,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik csata hozott döntő győzelmet a keresztény flottának 1571-ben?",
+            "answers": {
+                "A": "Actium",
+                "B": "Lepantó",
+                "C": "Trafalgar",
+                "D": "Gravelines"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 142,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik béke zárta le az 1848–49-es szabadságharcot?",
+            "answers": {
+                "A": "Világosi fegyverletétel",
+                "B": "Ferhát-béke",
+                "C": "Passzarowitzi béke",
+                "D": "Szatmári béke"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 143,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Ki volt az egységes Olaszország első miniszterelnöke 1861-ben?",
+            "answers": {
+                "A": "Cavour",
+                "B": "Garibaldi",
+                "C": "Mazzini",
+                "D": "Viktor Emánuel"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 144,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik reformátor írta a 95 tételt 1517-ben?",
+            "answers": {
+                "A": "Kálvin János",
+                "B": "Luther Márton",
+                "C": "Zwingli",
+                "D": "Husz János"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 145,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik országban zajlott a „Meidzsi-restauráció” a 19. században?",
+            "answers": {
+                "A": "Kína",
+                "B": "Japán",
+                "C": "Korea",
+                "D": "Vietnam"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 146,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik évben lett Magyarország és Ausztria kiegyezéssel dualista állam?",
+            "answers": {
+                "A": "1849",
+                "B": "1859",
+                "C": "1867",
+                "D": "1878"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 147,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik városban írták alá 1919-ben a Németországgal kötött békét?",
+            "answers": {
+                "A": "Versailles",
+                "B": "Trianon",
+                "C": "Sèvres",
+                "D": "Saint-Germain"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 148,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Ki volt a magyar „kiegyezés atyja” a 19. században?",
+            "answers": {
+                "A": "Kossuth Lajos",
+                "B": "Széchenyi István",
+                "C": "Deák Ferenc",
+                "D": "Andrássy Gyula"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 149,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik birodalom fővárosa volt Konstantinápoly 1453 előtt?",
+            "answers": {
+                "A": "Akkád Birodalom",
+                "B": "Bizánci Birodalom",
+                "C": "Oszmán Birodalom",
+                "D": "Frank Birodalom"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 150,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik csatában győzött a brit flotta Napóleon ellen 1805-ben?",
+            "answers": {
+                "A": "Trafalgar",
+                "B": "Nílus-csata",
+                "C": "Jena–Auerstedt",
+                "D": "Lipcse"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 151,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Ki írta „A történelem atyja” jelzővel illetett műveket az ókorban?",
+            "answers": {
+                "A": "Thuküdidész",
+                "B": "Polübiosz",
+                "C": "Hérodotosz",
+                "D": "Diodórosz"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 152,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik magyar király uralkodása alatt történt a tatárjárás?",
+            "answers": {
+                "A": "IV. Béla",
+                "B": "III. András",
+                "C": "II. András",
+                "D": "V. István"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 153,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Mi volt a Népszövetség fő célja az első világháború után?",
+            "answers": {
+                "A": "Új gyarmatok szerzése",
+                "B": "Világforradalom",
+                "C": "Nemzetközi béke fenntartása",
+                "D": "Európa újrafelosztása"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 154,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik vallási zsinat indította el az ellenreformációt a 16. században?",
+            "answers": {
+                "A": "Niceai zsinat",
+                "B": "Tridenti zsinat",
+                "C": "Kalsedoni zsinat",
+                "D": "Konstanzi zsinat"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 155,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik magyar királyt nevezték „Fekete Sereg” urának?",
+            "answers": {
+                "A": "I. Lajos",
+                "B": "Hunyadi Mátyás",
+                "C": "II. Ulászló",
+                "D": "Zsigmond"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 156,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik évhez köthető az Egyesült Nemzetek Szervezetének megalakulása?",
+            "answers": {
+                "A": "1919",
+                "B": "1939",
+                "C": "1945",
+                "D": "1955"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 157,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik eseményhez kapcsolódik a bostoni teadélután?",
+            "answers": {
+                "A": "Francia forradalom",
+                "B": "Amerikai függetlenségi háború",
+                "C": "Angol polgárháború",
+                "D": "Kínai ópiumháborúk"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 158,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik csatában győztek a normannok Angliában 1066-ban?",
+            "answers": {
+                "A": "Stamford Bridge",
+                "B": "Hastings",
+                "C": "Poitiers",
+                "D": "Agincourt"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 159,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Mi volt az Athenai Szövetség központi pénztára Periklész idején?",
+            "answers": {
+                "A": "Delosz",
+                "B": "Rodosz",
+                "C": "Naxosz",
+                "D": "Milétosz"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 160,
+            "category": "Történelem",
+            "difficulty": "normal",
+            "question": "Melyik magyar király adta ki az Aranybullát 1222-ben?",
+            "answers": {
+                "A": "II. András",
+                "B": "IV. Béla",
+                "C": "I. László",
+                "D": "Könyves Kálmán"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 161,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik szerződésben ismerték el a Német Lovagrend poroszországi birtokait 13. században?",
+            "answers": {
+                "A": "Krakkói béke",
+                "B": "Kaliszi szerződés",
+                "C": "Toruńi béke (1466)",
+                "D": "Olomouci egyezmény"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 162,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Ki volt a Pannóniát meghódító római hadvezér a Kr. u. 1. század elején?",
+            "answers": {
+                "A": "Germanicus",
+                "B": "Tiberius",
+                "C": "Traianus",
+                "D": "Claudius"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 163,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik nép alapította a Kijevi Ruszt a 9–10. században a krónikák szerint?",
+            "answers": {
+                "A": "Szlávok",
+                "B": "Varégok (vikingek)",
+                "C": "Hunok",
+                "D": "Kazárok"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 164,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik évben zajlott a nikai felkelés Konstantinápolyban?",
+            "answers": {
+                "A": "518",
+                "B": "532",
+                "C": "626",
+                "D": "717"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 165,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Hol állt a Hattín-hegy, ahol Szaladin legyőzte a kereszteseket 1187-ben?",
+            "answers": {
+                "A": "Szíria",
+                "B": "Júdea (Galilea)",
+                "C": "Egyiptom",
+                "D": "Kilikia"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 166,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik család uralta Firenze politikáját a 15. században?",
+            "answers": {
+                "A": "Borja",
+                "B": "Medici",
+                "C": "Sforza",
+                "D": "Este"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 167,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik latin kifejezés jelölte a Habsburg Birodalom örökös tartományait?",
+            "answers": {
+                "A": "Dominium Maris Baltici",
+                "B": "Hereditas Austriaca",
+                "C": "Regnum Hungariae",
+                "D": "Sacrum Imperium"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 168,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik 1707-es unió hozta létre Nagy-Britannia Királyságát?",
+            "answers": {
+                "A": "Angol–ír unió",
+                "B": "Angol–skót unió",
+                "C": "Skót–ír unió",
+                "D": "Wales–Anglia unió"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 169,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Mi volt a Habsburgok és az Oszmánok közti 1699-es béke neve, amely lezárta a „török háborúkat” Magyarországon?",
+            "answers": {
+                "A": "Zsitvatorok",
+                "B": "Szatmár",
+                "C": "Karlócai béke",
+                "D": "Belgrádi béke"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 170,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik évben hirdették ki a Pragmatica Sanctiót Magyarországon?",
+            "answers": {
+                "A": "1701",
+                "B": "1713",
+                "C": "1723",
+                "D": "1740"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 171,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Ki volt a francia forradalom jakobinus diktatúrájának vezető alakja?",
+            "answers": {
+                "A": "Danton",
+                "B": "Marat",
+                "C": "Robespierre",
+                "D": "Talleyrand"
+            },
+            "correct": "C"
+        },
+        {
+            "id": 172,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik csata döntötte el véglegesen a spanyol örökösödési háborút 1704-ben a Felső-Duna mentén?",
+            "answers": {
+                "A": "Blenheim (Höchstädt)",
+                "B": "Malplaquet",
+                "C": "Ramillies",
+                "D": "Denain"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 173,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik középkori magyar törvénykönyvet állította össze Werbőczy István?",
+            "answers": {
+                "A": "Hármaskönyv (Tripartitum)",
+                "B": "Corpus Juris Hungarici",
+                "C": "Aranybulla",
+                "D": "Decretum Sancti Ladislai"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 174,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik uralkodó verte szét a Német-római Birodalmat 1806-ban, megszüntetve azt?",
+            "answers": {
+                "A": "I. Ferenc császár",
+                "B": "I. Napóleon",
+                "C": "II. Frigyes",
+                "D": "III. Napóleon"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 175,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik 1521-es eseményen vonták felelősségre Luthert Károly császár előtt?",
+            "answers": {
+                "A": "Augsburgi gyűlés",
+                "B": "Wormsi birodalmi gyűlés",
+                "C": "Speyeri gyűlés",
+                "D": "Regensburgi gyűlés"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 176,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Mit jelent a „realpolitik” kifejezés, melyhez Bismarck nevét kötik?",
+            "answers": {
+                "A": "Eszmei-politikai idealizmus",
+                "B": "Valós erőviszonyokra építő, pragmatikus politika",
+                "C": "Forradalmi politika",
+                "D": "Kulturális egységesítés programja"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 177,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Hol kiáltották ki 1918. október 28-án Csehszlovákia megalakulását?",
+            "answers": {
+                "A": "Pozsony",
+                "B": "Prága",
+                "C": "Brünn",
+                "D": "Kassa"
+            },
+            "correct": "B"
+        },
+        {
+            "id": 178,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik elméletet fogalmazta meg Thuküdidész a hegemónia-váltásokkal összefüggésben?",
+            "answers": {
+                "A": "Thuküdidész-csapda",
+                "B": "Domino-elmélet",
+                "C": "Geopolitikai determinizmus",
+                "D": "Köztes-Európa-elmélet"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 179,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik 1703–1711 közti szabadságharcot vezette Magyarországon II. Rákóczi Ferenc?",
+            "answers": {
+                "A": "Kuruc szabadságharc",
+                "B": "Dózsa-féle felkelés",
+                "C": "Thököly-féle mozgalom",
+                "D": "Hajdúfelkelés"
+            },
+            "correct": "A"
+        },
+        {
+            "id": 180,
+            "category": "Történelem",
+            "difficulty": "hard",
+            "question": "Melyik béke zárta le a Habsburg–Rákóczi küzdelmeket 1711-ben?",
+            "answers": {
+                "A": "Varsói béke",
+                "B": "Szatmári béke",
+                "C": "Passzarowitzi béke",
+                "D": "Bécsi egyezmény"
+            },
+            "correct": "B"
+        }
+    ]
+}

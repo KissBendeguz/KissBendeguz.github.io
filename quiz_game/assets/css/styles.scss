@@ -1,0 +1,255 @@
+// --- Változók ---
+$bg: #0b071c;
+$accent: #ffbe0b;
+$accent-soft: #ffe28b;
+$accent-danger: #ff4b5c;
+$text-main: ivory;
+$text-soft: #d0c8ff;
+$panel: rgba(10, 6, 30, 0.94);
+$shadow-soft: 0 20px 40px rgba(0, 0, 0, 0.6);
+$radius-xl: 24px;
+$radius-lg: 18px;
+$font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+// --- Alap reset ---
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: $font-main;
+  background: ivory;
+  color: $text-main;
+}
+
+// --- App layout ---
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  &--in-game {
+    #quizCanvas {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    #ui-layer {
+      display: none;
+    }
+  }
+}
+
+// --- Canvas (alapból rejtve, csak játék közben látszik) ---
+#quizCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+}
+
+// --- UI réteg (menük) ---
+#ui-layer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+// --- Panelek ---
+.screen {
+  background: $panel;
+  border-radius: $radius-xl;
+  padding: 1.5rem 1.75rem;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: $shadow-soft;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+// --- Start / általános panel stílusok ---
+.screen-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  &-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+    background: radial-gradient(circle at 30% 20%, #fff8d7, #ffbe0b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #3b2300;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.5);
+  }
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.lead {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  color: $text-soft;
+}
+
+.small {
+  font-size: 0.78rem;
+  color: $text-soft;
+}
+
+.final-score {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem;
+}
+
+// --- Form ---
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
+
+  label {
+    font-size: 0.8rem;
+    color: $text-soft;
+  }
+
+  input,
+  select {
+    border-radius: 999px;
+    border: none;
+    padding: 0.55rem 0.9rem;
+    background: rgba(26, 17, 60, 0.95);
+    color: $text-main;
+    outline: none;
+
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.18);
+    }
+  }
+
+  input {
+    &::placeholder {
+      color: rgba(208, 200, 255, 0.8);
+    }
+  }
+}
+
+// --- Gombok ---
+.btn {
+  border-radius: 999px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: rgba(54, 33, 110, 0.95);
+  color: $text-main;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.45);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  transition:
+    transform 0.16s ease-out,
+    box-shadow 0.16s ease-out,
+    background 0.16s ease-out,
+    opacity 0.16s ease-out;
+
+  &.primary {
+    background: linear-gradient(135deg, #ff9f1c, #ffbe0b);
+    color: #3b2300;
+  }
+
+  &.ghost {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: none;
+  }
+
+  &:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 16px 28px rgba(0, 0, 0, 0.6);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: default;
+    box-shadow: none;
+  }
+}
+
+// --- Game over ---
+.gameover-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+// --- Leaderboard ---
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0.9rem;
+
+  th,
+  td {
+    padding: 0.4rem 0.45rem;
+    text-align: left;
+  }
+
+  thead {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background: rgba(255, 255, 255, 0.03);
+    }
+  }
+}
+
+.leaderboard-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+// --- Responsive ---
+@media (max-width: 600px) {
+  .screen {
+    padding: 1.2rem 1.25rem;
+  }
+}
