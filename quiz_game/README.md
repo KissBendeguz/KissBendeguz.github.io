@@ -116,3 +116,7 @@ A játék **kategória meta** adatokat és **kérdéseket** vár:
 - A stílusok **SCSS**-ben készültek, buildelve az assets/css/styles.css-be.  
 - Változók (színek, rádiuszok, árnyékok), konzisztens tipográfia.  
 - A játék közben a teljes vizuális UI a **canvas**-on jelenik meg; az overlay csak a menükre szolgál.
+
+## Külső eszközök
+- **AI** generált háttérképek.
+- **Bootstrap-icons** ikon könyvtár
